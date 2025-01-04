@@ -2,7 +2,6 @@ import { React, useState } from "react";
 import Axios from "axios";
 import "./App.css";
 import { FaSearch } from "react-icons/fa";
-import { FcSpeaker } from "react-icons/fc";
 
 function App() {
   // Setting up the initial states using react hook 'useState'
