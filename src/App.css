@@ -1,0 +1,66 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url(
+'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,300&display=swap');
+
+.App {
+  height: 130vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:white;
+  padding: 1.5em;
+}
+
+h2{
+  font-size: 30px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  color: white;
+}
+
+h4{
+  color: white;
+  text-decoration: underline;
+}
+
+input{
+  width: 400px;
+  height: 38px;
+  font-size: 20px;
+  padding-left: 10px;
+  background-color: orange;
+  color: black;
+}
+
+.searchBox > button{
+  background-color: orange;
+  height: 38px;
+  width: 60px;
+  border: none;
+  color: black;
+  box-shadow: 0px 3px 2px black;
+  cursor: pointer;
+  padding: 0;
+}
+
+.showResults{
+  width: 600px;
+  padding: 30px;
+  color:white;
+}
+
+.showResults > h2 > button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
